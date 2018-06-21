@@ -1,5 +1,23 @@
 {
-	"require": {
+    "name": "lbullard/olive-googlecloud",
+    "description": "OliveWeb wrapper module for Google Cloud's PHP API",
+    "keywords": ["oliveweb", "wrapper", "module", "google", "cloud"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Bullard",
+            "email": "luke@lukebullard.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4",
 		"google/cloud": "*"
-	}
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+    "extra": {
+        "installer-name": "googlecloud"
+    }
 }
