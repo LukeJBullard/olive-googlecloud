@@ -19,7 +19,7 @@
 
         public function __construct()
         {
-            require_once("vendor/autoload.php");
+            require_once("../../vendor/autoload.php");
             $this->m_clients = array();
         }
 
